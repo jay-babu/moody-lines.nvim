@@ -11,6 +11,7 @@ dependencies = {
 }
 test_dependencies = {
   "nlua",
+  "bit",
 }
 build = {
   type = "builtin",
