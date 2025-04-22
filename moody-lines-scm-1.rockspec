@@ -1,17 +1,16 @@
-rockspec_format = '3.0'
--- TODO: Rename this file and set the package
-package = "nvim-lua-plugin"
+rockspec_format = "3.0"
+package = "moody-lines"
 version = "scm-1"
 source = {
   -- TODO: Update this URL
-  url = "git+https://github.com/nvim-lua/nvim-lua-plugin-template"
+  url = "git+https://github.com/jay-babu/moody-lines.nvim",
 }
 dependencies = {
   -- Add runtime dependencies here
   -- e.g. "plenary.nvim",
 }
 test_dependencies = {
-  "nlua"
+  "nlua",
 }
 build = {
   type = "builtin",
